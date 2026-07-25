@@ -128,6 +128,11 @@ article {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
+.hero article h2 {
+    background-color: transparent;
+    padding: 0;
+}
+
 h2 {
     text-align: center;
     background-color: #3371A7;
