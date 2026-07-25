@@ -81,7 +81,7 @@ nav,
 p,
 section,
 article {
-    margin: 16px;
+    margin: 10px;
     padding: 8px;
 }
 
@@ -126,6 +126,12 @@ article {
     margin: 10px;
     border-radius: 15px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+h3 {
+    text-align: center;
+    padding-top: 10px;
+
 }
 
 h2 {
