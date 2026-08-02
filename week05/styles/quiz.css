@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.box-spacing {
+    margin: 5px;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: #182997;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EEEEEE;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+}
+
+label span {
+    color: darkblue;
+    font-weight: 700;
+}
+
+label {
+    display: block;
+}
+
+input,
+textarea,
+select {
+    width: 600px;
+    min-height: 30px;
+}
+
+button {
+    width: 600px;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    height: 40px;
+    font-size: 1rem;
+}
