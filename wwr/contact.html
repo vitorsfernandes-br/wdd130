@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <meta name="description"
+      content="Contact information and a contact form which the user can submit to ask questions about the company and its services.">
+    <meta name="author" content="Vitor Soares Fernandes">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/wwr_logo.jpg"
+          alt="A logo showing a water circle with a wooden sign saying: Whitewater Rafting.">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="contact-info">
+            <h1>White Water Rafting Company</h1>
+
+            <address>
+                <p>123 Main River Street</p>
+                <p>Kolob, California</p>
+                <p>+1 999 999 9999</p>
+                <p>info@Whitewater.com</p>
+            </address>
+
+        </section>
+
+        <section class="form">
+            <form>
+                <div class="form-item">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                </div>
+
+                <div class="form-item">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="form-item purpose">
+                    <label>Message Purpose</label>
+
+                    <div class="radio-group">
+
+                        <label for="general">
+                            <input type="radio" id="general" name="purpose">
+                            General inquiry
+                        </label>
+
+                        <label for="reservation">
+                            <input type="radio" id="reservation" name="purpose">
+                            Reservation Question
+                        </label>
+
+                        <label for="suggestion">
+                            <input type="radio" id="suggestion" name="purpose">
+                            Website Suggestion
+                        </label>
+
+                    </div>
+                </div>
+
+                <div class="message">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+
+                </div>
+
+                <button type="submit">Get in Touch!</button>
+
+            </form>
+
+            <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29221.235339548373!2d-46.85824!3d-23.724031999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1785718450869!5m2!1sen!2sbr"
+                  allowfullscreen="" loading="lazy"
+                  referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+
+        </section>
+
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+
+            <div class="employees-content">
+                <figure>
+                    <img src="images/head-guide-small.jpg"
+                      alt="The profile picture of the head guide.">
+                    <figcaption>Head Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting-guide-small.jpg"
+                      alt="The profile picture of the rafting guide.">
+                    <figcaption>Rafting Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/safety-cordinator-small.jpg"
+                      alt="The profile picture of the safety coordinator.">
+                    <figcaption>Safety Coordinator</figcaption>
+                </figure>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy;2026 | Rafting Company Name | Vitor Soares Fernandes</p>
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com"><img src="images/facebook.svg"
+                  alt="Facebook logo."></a>
+            <a href="https://www.linkedin.com"><img src="images/linkedin.svg"
+                  alt="Linkedin logo."></a>
+            <a href="https://www.instagram.com"><img src="images/instagram.svg"
+                  alt="Instagram logo."></a>
+        </nav>
+    </footer>
+</body>
+
+</html>
