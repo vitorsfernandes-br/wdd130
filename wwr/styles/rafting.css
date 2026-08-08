@@ -482,8 +482,11 @@ main > h1 {
     grid-template-columns: 60% 1fr;
 }
 
-.cta-contact h3 {
+.cta-contact h2 {
     text-align: center;
+    background-color: transparent;
+    color: var(--header-color);
+    padding-bottom: 0;
 }
 
 .trips {
@@ -495,7 +498,7 @@ main > h1 {
 .trips > h2 {
     grid-column: 1 / -1;
     margin-bottom: 5px;
-    padding-top: 80px;
+    padding-top: 90px;
 }
 
 .trips-options {
